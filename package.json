@@ -1,0 +1,20 @@
+{
+  "name": "mern-stack-shopping-list",
+  "version": "1.0.0",
+  "description": "Shopping list built with the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisricola/MERN-stack-shopping-list.git"
+  },
+  "author": "Chris Rico",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisricola/MERN-stack-shopping-list/issues"
+  },
+  "homepage": "https://github.com/chrisricola/MERN-stack-shopping-list#readme"
+}
