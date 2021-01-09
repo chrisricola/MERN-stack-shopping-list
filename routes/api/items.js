@@ -14,6 +14,17 @@ router.get('/', (req, res) => {
 });
 
 // @route POST api/items
+// @desc Create A Item
+// @access Public
+router.post('/', (req, res) => {
+    const newItem = new Item({
+        name: req.body.name
+    });
+
+    newItem.save().then(item => res.json(item))
+});
+
+// @route POST api/items
 // @desc Create A Post
 // @access Public
 router.post('/', (req, res) => {
@@ -21,7 +32,7 @@ router.post('/', (req, res) => {
         name: req.body.name
     });
 
-    newItem.save().then(items => res.json(item))
+    newItem.save().then(item => res.json(item))
 });
 
 
