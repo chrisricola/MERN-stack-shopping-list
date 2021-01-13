@@ -8,7 +8,7 @@ This is a fitness traking app that is is deployed through Heroku. Its utilzes No
 
 ## Site 
 
-https://shielded-hamlet-01417.herokuapp.com/?id=5ee84dd95f6efe0017c00341
+https://young-gorge-65687.herokuapp.com/
 
 
 ## Installations 
