@@ -1,10 +1,10 @@
 # MERN-stack-shopping-list
 
-Allows user to track and store their workouts. Also shows the User the results in a graph and chart. The worksout are saved in Mongo db. 
+Allows users to create a shopping list. Users can add items to the list and delete item when finished. 
 
 ## Description
 
-This is a fitness traking app that is is deployed through Heroku. Its utilzes Node, Express, Mongo and Mongoose for the back end and databases. The front is html, Javascript and css. 
+This app is is deployed through Heroku. Its utilzes Node, Express, Mongo and Mongoose for the back end and databases. The front is html, Javascript and css. 
 
 ## Site 
 
@@ -27,6 +27,4 @@ The user should be able to:
 
   * View multiple the combined weight of multiple exercises on the `stats` page.
 
-## Challenges
 
-I had my tutor help me connect the models and routes. 
